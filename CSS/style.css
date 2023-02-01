@@ -1,0 +1,19 @@
+:root {
+    --blue: #243d6a;;
+  }
+  
+.theme-color{color: var(--blue);}
+.f-13{font-size: 13px;}
+.img-icon{height: 32px;width: 33px;object-fit: contain;}
+/* .custom-nav{gap: 20px;} */
+
+.custom-nav{gap: 10px;}
+.custom-nav .nav-item{height: 150px;width: 150px;}
+
+
+@media (max-width: 991px) {
+  .tab-content>.tab-pane {
+    display: block;
+    opacity: 1;
+  }
+}
